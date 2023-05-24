@@ -64,6 +64,20 @@ static const char unknown_str[] = "n/a";
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
 static const struct arg args[] = {
-	/* function format          argument */
-	{ datetime, "%s",           "%F %T" },
+    /* function format          argument */
+    {cpu_perc, "cpu: %s%%", NULL},
+    {cpu_freq, " %sHz", NULL},
+    {ram_used, " mem: %sB/", NULL},
+    {ram_total, "%sB", NULL},
+    {disk_used, " root: %sB/", "/"},
+    {disk_total, "%sB", "/"},
+    {disk_used, " home: %sB/", "/home/ark"},
+    {disk_total, "%sB", "/home/ark"}, //{battery_perc, " bat: %s%%", "CMB0"},
+    //{battery_state, " %s", "CMB0"},
+    //{run_command, " bri: %s%%", "xbacklight -get"},
+    {ipv4, " net: %s", "enp3s0"},
+    {run_command, " vol: %s%%", "pamixer --get-volume"},
+    //{wifi_perc, " net: %s%%", "wlan0"},
+    //{wifi_essid, " (%s)", "wlan0"},
+    {datetime, " %s", "dat: %a %d-%m-%y %H:%M"},
 };
