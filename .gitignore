@@ -1,2 +1,8 @@
 # configuration file(s)
 config.h
+
+# object file(s)
+*.o
+
+# binary file
+slstatus
