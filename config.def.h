@@ -65,20 +65,20 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     /* function format          argument */
-    //{cpu_perc, "^c#fabd2f^cpu: %s%%", NULL},
-    //{cpu_freq, " %sHz^d^", NULL},
-    //{ram_used, " ^c#d3869b^mem: %sB/", NULL},
-    //{ram_total, "%sB^d^", NULL},
-    //{disk_used, " ^c#83a598^root: %sB/", "/"},
-    //{disk_total, "%sB^d^", "/"},
-    //{disk_used, " ^c#b8bb26^home: %sB/", "/home/ark"},
-    //{disk_total, "%sB^d^", "/home/ark"}, //
-    //{battery_perc, " ^c#fb4934^bat: %s%%", "CMB0"},
-    //{battery_state, " %s^d^", "CMB0"},
-    //{run_command, " ^c#83a598^bri^d^: %s%%", "xbacklight -get"},
-    //{ipv4, " ^c#fb4934^net: %s^d^", "enp7s0"},
-    //{run_command, " ^c#8ec07c^vol: %s%%^d^", "pamixer --get-volume"},
-    //{wifi_perc, " ^c#fabd2f^wifi: %s%%", "wlan0"},
-    //{wifi_essid, " (%s)^d^", "wlan0"},
-    {datetime, " ^c#928374^dat: %s^d^", "%a %d-%m-%y %H:%M"},
+    //{ cpu_perc,       "^c#78a9ff^cpu: %s%%",      NULL },
+    //{ cpu_freq,       " %sHz^d^",                 NULL },
+    //{ ram_used,       " ^c#f16da6^mem: %sB/",     NULL },
+    //{ ram_total,      "%sB^d^",                   NULL },
+    //{ disk_used,      " ^c#25be6a^root: %sB/",    "/" },
+    //{ disk_total,     "%sB^d^",                   "/" },
+    //{ disk_used,      " ^c#2dc7c4^home: %sB/",    "/home/ark" },
+    //{ disk_total,     "%sB^d^",                   "/home/ark"},  //
+    //{ battery_perc,   " ^c#ee5396^bat: %s%%",     "CMB0" },
+    //{ battery_state,  " %s^d^",                   "CMB0" },
+    //{ run_command,    " ^c#25be6a^bri: %s%%^d^",  "xbacklight -get" },
+    //{ ipv4,           " ^c#78a9ff^net: %s^d^",    "enp7s0" },
+    //{ run_command,    " ^c#25be6a^vol: %s%%^d^",  "pamixer --get-volume" },
+    //{ wifi_perc,      " ^c#78a9ff^wifi: %s%%",    "wlan0" },
+    //{ wifi_essid,     " (%s)^d^",                 "wlan0" },
+    //{ datetime,       " ^c#e4e4e5^dat: %s^d^",    "%a %d-%m-%y %H:%M" },
 };
